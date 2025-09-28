@@ -1,15 +1,15 @@
-# 🚀 Laboratorio #2 - Implementación del Login en Laravel
+# Laboratorio #2 - Implementación del Login en Laravel
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este repositorio contiene la implementación de un sistema de autenticación (login) desarrollado con Laravel, siguiendo el patrón arquitectónico Modelo-Vista-Controlador (MVC). El proyecto incluye funcionalidades de registro, inicio de sesión, cierre de sesión y recuperación de contraseña.
 
-## 🎯 Objetivos del Laboratorio
+## Objetivos del Laboratorio
 
 - Implementar un sistema de autenticación completo en Laravel
 - Aplicar el patrón MVC en una aplicación web real
@@ -17,7 +17,7 @@ Este repositorio contiene la implementación de un sistema de autenticación (lo
 - Gestionar rutas protegidas y middleware de autenticación
 - Crear interfaces de usuario responsivas con Bootstrap
 
-## 🛠️ Requisitos Previos
+## Requisitos Previos
 
 ### Prerrequisitos del Sistema
 
@@ -31,11 +31,11 @@ Este repositorio contiene la implementación de un sistema de autenticación (lo
 | ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) | Recomendado | Editor de código |
 
 ### Entorno de Desarrollo
-- **XAMPP/Laragon**: Para servidor local
+- **WAMPSERVER**: Para servidor local
 - **Node.js y NPM**: Para compilación de assets
 - **Git**: Control de versiones
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Clonar el Repositorio
 ```bash
@@ -118,22 +118,22 @@ El proyecto estará disponible en: `http://127.0.0.1:8000`
 - **home.blade.php**: Página principal protegida
 - **layouts/app.blade.php**: Layout principal
 
-#### 🛤️ Rutas
+#### Rutas
 - Rutas públicas (login, register)
 - Rutas protegidas (middleware auth)
 - Redirecciones automáticas
 
-## 📸 Resultado del Laboratorio
+## Resultado del Laboratorio
 
 ![Captura de pantalla del sistema de login](InicioSesion.png)
 
-*Pantalla principal del sistema de autenticación implementado*
+*Pantalla principal del sistema Login*
 
 ![Captura de pantalla del sistema de login](CrearCuenta.png)
 
-*Pantalla principal del sistema de autenticación implementado*
+*Pantalla principal del sistema de Register*
 
-### Funcionalidades Implementadas ✅
+### Funcionalidades Implementadas
 
 - ✅ Registro de nuevos usuarios
 - ✅ Inicio de sesión con email y contraseña
@@ -144,7 +144,7 @@ El proyecto estará disponible en: `http://127.0.0.1:8000`
 - ✅ Mensajes de error y éxito
 - ✅ Recordar sesión ("Remember me")
 
-## 🗄️ Base de Datos
+## Base de Datos
 
 ### Configuración
 - **Motor**: MySQL 8.0
@@ -235,8 +235,8 @@ npm run build
 
 ### Este laboratorio ha sido desarrollado por el estudiante de la Universidad Tecnológica de Panamá
 
-**Nombre:** [Miriam Jessenia Angulo Sánchez]  
-**Correo:** [miriam.angulo@utp.ac.pa]  
+**Nombre:** Miriam Jessenia Angulo Sánchez 
+**Correo:** miriam.angulo@utp.ac.pa
 **Curso:** Ingeniería Web - II Semestre 2025  
 **Instructor del Laboratorio:** Ing. Irina Fong  
 
