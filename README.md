@@ -73,9 +73,7 @@ DB_PASSWORD=
 # Crear base de datos
 php artisan migrate
 
-# Opcional: Ejecutar seeders
-php artisan db:seed
-```
+
 
 ### 6. Instalar Paquete de Autenticación
 
@@ -100,42 +98,21 @@ php artisan serve
 
 El proyecto estará disponible en: `http://127.0.0.1:8000`
 
-## 🏗️ Arquitectura del Proyecto (MVC)
-
-### 📁 Estructura de Carpetas Principales
-
-```
-proyecto-laravel/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/     # 🎮 Controladores
-│   │   └── Middleware/      # 🛡️ Middleware de autenticación
-│   ├── Models/              # 📊 Modelos (User.php)
-│   └── Providers/
-├── database/
-│   ├── migrations/          # 🗄️ Migraciones de BD
-│   └── seeders/
-├── resources/
-│   ├── views/               # 👁️ Vistas (Blade templates)
-│   └── js/
-├── routes/
-│   └── web.php              # 🛤️ Definición de rutas
-└── public/
-```
+## Arquitectura del Proyecto (MVC)
 
 ### Componentes MVC Implementados
 
-#### 🎮 Controladores
+#### Controladores
 - **AuthController**: Maneja autenticación
 - **HomeController**: Controlador para páginas protegidas
 - **RegisterController**: Gestiona registro de usuarios
 - **LoginController**: Controla inicio de sesión
 
-#### 📊 Modelos
+#### Modelos
 - **User Model**: Modelo de usuario con autenticación
 - **Eloquent ORM**: Para interacción con base de datos
 
-#### 👁️ Vistas
+#### Vistas
 - **auth/login.blade.php**: Formulario de inicio de sesión
 - **auth/register.blade.php**: Formulario de registro
 - **home.blade.php**: Página principal protegida
@@ -148,7 +125,11 @@ proyecto-laravel/
 
 ## 📸 Resultado del Laboratorio
 
-![Captura de pantalla del sistema de login](screenshot.png)
+![Captura de pantalla del sistema de login](InicioSesion.png)
+
+*Pantalla principal del sistema de autenticación implementado*
+
+![Captura de pantalla del sistema de login](CrearCuenta.png)
 
 *Pantalla principal del sistema de autenticación implementado*
 
@@ -193,10 +174,10 @@ php artisan migrate:rollback
 php artisan migrate:status
 ```
 
-### 💾 Backup de Base de Datos
+### Backup de Base de Datos
 Se incluye un archivo `database_backup.sql` en la carpeta `/database/backups/` con la estructura y datos de prueba.
 
-## 🚧 Dificultades y Soluciones
+## Dificultades y Soluciones
 
 ### Problema 1: Error de Migración
 **Dificultad**: Error al ejecutar `php artisan migrate`
@@ -225,7 +206,7 @@ npm run dev
 npm run build
 ```
 
-## 📚 Referencias
+## Referencias
 
 1. **Documentación Oficial de Laravel**: [https://laravel.com/docs](https://laravel.com/docs)
    - Guía completa sobre autenticación y MVC en Laravel
@@ -241,11 +222,10 @@ npm run build
 
 5. **Stack Overflow**: Soluciones a problemas específicos encontrados durante el desarrollo
 
-## 📅 Información del Desarrollo
+## Información del Desarrollo
 
-**Fecha de Ejecución**: [Fecha cuando realizaste el laboratorio]  
-**Duración del Laboratorio**: [Tiempo estimado]  
-**Entorno de Desarrollo**: Windows 10/11, XAMPP, VS Code
+**Fecha de Ejecución**:   28 de Septiembre de 2025
+**Entorno de Desarrollo**: Windows 10/11, WAMPP, VS Code
 
 ---
 
@@ -255,8 +235,8 @@ npm run build
 
 ### Este laboratorio ha sido desarrollado por el estudiante de la Universidad Tecnológica de Panamá
 
-**Nombre:** [Tu Nombre Completo]  
-**Correo:** [tu.correo@utp.ac.pa]  
+**Nombre:** [Miriam Jessenia Angulo Sánchez]  
+**Correo:** [miriam.angulo@utp.ac.pa]  
 **Curso:** Ingeniería Web - II Semestre 2025  
 **Instructor del Laboratorio:** Ing. Irina Fong  
 
@@ -269,7 +249,3 @@ npm run build
 </div>
 
 ---
-
-<div align="center">
-<i>Desarrollado con ❤️ usando Laravel y Bootstrap</i>
-</div>
